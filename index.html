@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restaurante</title>
+  <link rel="stylesheet" href="assets/CSS/style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
+
+<body>
+  <div class="container">
+
+    <nav class="navbar navbar-dark bg-dark">
+      <a class="navbar-brand text-warning" href="#">Restaurante Paulistano</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado"
+        aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(página atual)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              Dropdown
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Ação</a>
+              <a class="dropdown-item" href="#">Outra ação</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Algo mais aqui</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#">Desativado</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
+        </form>
+      </div>
+    </nav>
+
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <h1 class="display-4">Restaurante Paulistano</h1>
+        <p class="lead">Melhor comida de São Paulo</p>
+      </div>
+    </div>
+
+    <div id="carouselExampleIndicators" class="carousel slide b-3" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block tm-carrossel"
+            src="https://www.portalolhardinamico.com.br/app/thumbs.php?img=../uploads/img/posts/2639/3247e5a2749542d0085f99fe1cbc4976.jpg&w=770&h=490"
+            alt="Primeiro Slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block tm-carrossel"
+            src="https://stub.studio/wp-content/uploads/2019/04/comida-brasileira-pastel.png" alt="Segundo Slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block tm-carrossel"
+            src="https://www.supermercadohigas.com.br/blog/capa/capa_00083/comidas-tipicas-cidade-de-s%C3%A3o-paulo.jpg"
+            alt="Terceiro Slide">
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Anterior</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Próximo</span>
+      </a>
+    </div>
+    <br>
+    <div class="card-deck t-3 ">
+      <div class="card bg-warning mb-3">
+        <img class="card-img-top"
+          src="https://claudia.abril.com.br/wp-content/uploads/2020/01/receita-pizza-caseira-dois-queijos.jpg?quality=85&strip=info&w=620?quality=70&strip=info&w=636"
+          alt="Imagem de capa do card">
+        <div class="card-body">
+          <h5 class="card-title">Pizza de mussarela</h5>
+          <p class="card-text">Pizza de queijo mussarela com azeitona tomate e orégano.</p>
+          <p class="card-text"><small class="text-muted">R$ 30.00 Inteira/R$ 3.75 fatia.</small></p>
+        </div>
+      </div>
+      <div class="card bg-warning mb-3">
+        <img class="card-img-top"
+          src="https://claudia.abril.com.br/wp-content/uploads/2020/01/receita-pastel-de-carne-moida-e-repolho.jpg?quality=85&strip=info&w=620?quality=70&strip=info&w=636"
+          alt="Imagem de capa do card">
+        <div class="card-body">
+          <h5 class="card-title">Pastel diversos sabores.</h5>
+          <p class="card-text">Camarão, queijo, carne moida, frango.</p>
+          <p class="card-text"><small class="text-muted">R$6.00</small></p>
+        </div>
+      </div>
+      <div class="card bg-warning mb-3">
+        <img class="card-img-top"
+          src="https://claudia.abril.com.br/wp-content/uploads/2020/01/receita-feijoada.jpg?quality=85&strip=info&w=620?quality=70&strip=info&w=636"
+          alt="Imagem de capa do card">
+        <div class="card-body">
+          <h5 class="card-title">Feijoada</h5>
+          <p class="card-text">Linguiça, carne, pé de porco, orelha de porco, lombo de porco.</p>
+          <p class="card-text"><small class="text-muted">R$ 4.99 porção.</small></p>
+        </div>
+      </div>
+    </div>
+    <h1 class="mt-3 text-center">Contato</h1>
+    <div class="row mr-3 mt-5 mb-5 ">
+      <div class="col-1">
+
+      </div>
+      <div class="col-5 mr-3">
+        <form class="mr-3">
+          <div class="form-group">
+            <label for="exampleFormControlInput1">Endereço de email</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nome@exemplo.com">
+          </div>
+
+          <form>
+            <div class="form-group">
+              <label for="exampleFormControlInput1">Endereço de email</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nome@exemplo.com">
+            </div>
+
+            <div class="form-group">
+              <label for="exampleFormControlTextarea1">Exemplo de textarea</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+
+          </form>
+      </div>
+      <div class="col-1">
+
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3659.391205678641!2d-46.413359299999996!3d-23.4824147!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce63ba5ce537a3%3A0xcfa7354d224ba85e!2sR.%20Borboleta%20Amarela%20-%20Jardim%20Sao%20Martinho%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2008081-570!5e0!3m2!1spt-PT!2sbr!4v1655334251493!5m2!1spt-PT!2sbr"
+          width="500" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy=""></iframe>
+      </div>
+    </div>
+    <div class="col-5">
+    </div>
+    <footer class="bg-dark">
+      <div class="flex-container-footer">
+        <a href="https://www.instagram.com/" target="_blank">
+          <img class="tm-social mr-2 mt-5 mb-3" src="https://cdn-icons-png.flaticon.com/512/1384/1384073.png" alt="">
+        </a>
+        <a href="https://pt-br.facebook.com/" target="_blank">
+          <img class="tm-social mr-2 mt-5 mb-3 ml-3 " src="https://cdn-icons-png.flaticon.com/512/747/747543.png" alt="">
+        </a>
+        <a href="https://www.whatsapp.com/?lang=pt_br" target="_blank">
+          <img class="tm-social ml-3 mt-5 mb-3" src="https://cdn-icons-png.flaticon.com/512/1384/1384079.png" alt="">
+        </a>
+      </div>
+      <div class="flex-container-footer">
+        <p class="text-warning">&copy;Todos os direitos reservados ao Wander</p>
+      </div>
+    </footer>
+  </div>
+
+
+  <script src="/assets/JS/script.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
